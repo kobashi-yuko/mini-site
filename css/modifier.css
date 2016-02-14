@@ -1,0 +1,9 @@
+@charset="UTF-8";
+.title {
+	font-family: 'Poiret One', cursive;
+	border-left:5px solid #f6a2c6;
+	border-bottom:1px dotted #ccc;
+	padding:3px 0 5px 5px;
+	font-size:20px;
+	font-weight:bold;
+}

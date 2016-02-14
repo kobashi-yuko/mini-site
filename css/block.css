@@ -1,0 +1,137 @@
+@charset="UTF-8";
+#header {
+	width: 100%;
+	height: 100px;
+	background: #FFF;
+	position:fixed;
+	top: 0;
+	right: 0;
+    z-index: 999;
+    box-shadow: 2px 2px;
+    box-shadow: 2px 2px 2px rgba(238,238,238,0.3);
+    box-shadow: 2px 2px 2px 2px rgba(238,238,238,0.3);
+    box-shadow: 2px 2px 2px 2px rgba(238,238,238,0.3);
+}
+.logo {
+	float:left;
+	margin: 35px 0 0 15px;
+}
+.header__menu {
+	float: right;
+	margin: 50px 15px 0 0;
+}
+.header__menu li {
+	display:inline-block;
+}
+.header__menu a,.category-menu a {
+	color: #333;
+}
+.header__menu a:hover {
+	color: #f6a2c6;
+}
+.topbanner {
+	height:300px;
+	background:#ccc;
+	margin-top:100px;
+}
+.container {
+	width:1010px;
+	margin: 30px auto;
+}
+.left-area {
+	width:260px;
+	float:left;
+}
+.search {
+text-align:center;
+}
+.search__box {
+	height:25px;
+	width:150px;
+	border: 1px solid #ccc;
+	display:inline-block;
+	vertical-align: top;
+	box-sizing:border-box;
+}
+.search__box:focus,.search__btn:focus {
+  outline: 0;
+}
+.search__btn {
+	border-style:none;
+	background: #f6a2c6;
+	color:#FFF;
+	height:25px;
+	display:inline-block;
+	vertical-align: top;
+	box-sizing:border-box;
+}
+.category-menu li {
+	margin-bottom:10px;
+}
+.main-area {
+	width:430px;
+	float:left;
+	margin:0 30px;
+}
+.top-article {
+	position:relative;
+}
+.top-article__photo {
+	width:430px;
+	height:286px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.top-article__move {
+	background: rgba(255,255,255,.6);
+	width:430px;
+	height:286px;
+	position:absolute;
+	top:0;
+	left:0;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    transition: 0.8s ease;
+    opacity: .0;
+    filter: alpha(opacity=0);
+    -ms-filter: "alpha(opacity=50)";
+    -khtml-opacity: .0;
+    -moz-opacity: .0;
+}
+.top-article__move:hover {
+	opacity: 1;
+}
+.top-article__sns {
+margin:125px auto 0 auto;
+width:163px;
+}
+.top-article__sns li {
+	width:50px;
+	height:50px;
+	background: #f6a2c6;
+	display:inline-block;
+}
+.top-article__sns i {
+	display:block;
+	margin:0 auto;
+	color:#FFF;
+}
+.top-article__sns span {
+	color:#FFF;
+}
+.top-article__title {
+	background: #f6a2c6;
+	color:#FFF;
+	display:inline-block;
+	padding:0 3px;
+}
+
+.right-area {
+	width:260px;
+	float:right;
+}
+.ad-area img {
+	margin-bottom:10px;
+}

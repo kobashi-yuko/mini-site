@@ -1,0 +1,16 @@
+@charset="UTF-8";
+
+body,html,ul,li,p {
+	margin:0;
+	padding:0;
+}
+
+body {
+	color: #333;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style:none;
+}
